@@ -1,0 +1,12 @@
+# stemming stemming parameter disabled, just_waw_and_faa, larkey
+normalization:enabled
+stemming:disabled
+POS:enabled
+generate_6bi:enabled
+generate_6tri:enabled
+generate_6quad:enabled
+word_position:disabled
+word_length:disabled
+word_unigram_probability:disabled
+word_with_previous_and_word_with_succeeding_word_unigram_ratio:disabled
+dictionaries:disabled

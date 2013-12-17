@@ -1,0 +1,48 @@
+# Unigram
+#the word
+U000:%x[0,0]
+#POS
+U001:%x[0,1]
+#6bi
+U002:%x[0,2]
+U003:%x[0,3]
+U004:%x[0,4]
+U005:%x[0,5]
+U006:%x[0,6]
+U007:%x[0,7]
+
+#6tri
+U008:%x[0,8]
+U009:%x[0,9]
+U010:%x[0,10]
+U011:%x[0,11]
+U012:%x[0,12]
+U013:%x[0,13]
+
+#6quad
+U014:%x[0,14]
+U015:%x[0,15]
+U016:%x[0,16]
+U017:%x[0,17]
+U018:%x[0,18]
+U019:%x[0,19]
+
+#in gazetteer
+U020:%x[0,20]
+
+#has prefix
+U021:%x[0,21]
+
+#in POS and has prefix
+U022:%x[-1,1]/%x[0,21]
+
+#Previous and next word, respectively
+U024:%x[-1,0]
+U025:%x[1,0]
+#
+#Previous POSes
+U026:%x[-1,1]
+U027:%x[-2,1]
+
+#Bigram
+B
