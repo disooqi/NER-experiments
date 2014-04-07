@@ -398,4 +398,5 @@ if __name__ == "__main__":
     p = r'datasets\00_ANERCorp_original'
     #generateFeaturesForTrainingAndTesting(sys.argv[1])
     generateFeaturesForTrainingAndTesting(p)
-    
+
+

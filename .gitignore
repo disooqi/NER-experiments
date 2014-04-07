@@ -1,0 +1,10 @@
+temp/
+src/*.log
+src/__pycache__/
+#look at
+#https://help.github.com/articles/ignoring-files
+#https://github.com/github/gitignore
+
+# Mr Developer
+.project
+.pydevproject
